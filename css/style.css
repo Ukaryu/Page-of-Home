@@ -1,0 +1,55 @@
+body{
+	background: url("../images/Background.png") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+ 	text-align: center;
+}
+
+#head #head-div div{
+	display: inline;
+}
+
+#head #head-div, #tab{
+	background: url("../images/Nav bar.png");
+	padding:2%;
+	border-radius: 10px;
+}
+
+#selected a{
+	background-color: gray;
+}
+
+#head a, #head a:hover, #head a:visited, #head a:link{
+	text-decoration:none;
+	color: #2B2B2B;
+	font-size: 25px;
+	padding: 0.9%;
+	border-radius: 10px;
+}
+
+.n-selected a:hover{
+	background-color: #BFBFBF;
+	
+}
+
+.content{
+	background-color: gray;
+	max-width: 80%;
+	padding: 2%;
+	margin: 30px auto 0 auto;
+
+}
+
+.medlemmer{
+	background-color: gray;
+	max-width: 18%;
+	padding: 2%;
+	margin: 0 auto 0 auto;
+	display: inline-block;
+}
+
+#tab {
+	margin-top:10%;
+}
