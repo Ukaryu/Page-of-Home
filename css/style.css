@@ -39,15 +39,25 @@ body{
 	max-width: 80%;
 	padding: 2%;
 	margin: 30px auto 0 auto;
+	border-radius: 10px;
 
 }
 
 .medlemmer{
 	background-color: gray;
 	max-width: 18%;
+	max-width: 150px;
 	padding: 2%;
-	margin: 0 auto 0 auto;
+	margin: auto auto auto auto;
+	border-radius: 10px;
 	display: inline-block;
+
+}
+
+.medlemmer img{
+	max-width: 100%;
+	max-height: 95%;
+	border-radius: 10px;
 }
 
 #tab {
