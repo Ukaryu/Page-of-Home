@@ -1,5 +1,5 @@
 body{
-	background: url("../images/Background.png") no-repeat center center fixed; 
+	background: url("../images/design/Background.png") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -14,7 +14,7 @@ body{
 }
 
 #head #head-div{
-	background: url("../images/Nav bar.png");
+	background: url("../images/design/Nav bar.png");
 	padding:2%;
 }
 
@@ -27,7 +27,7 @@ body{
 	color: #2B2B2B;
 	font-size: 25px;
 	padding: 0.9%;
-	border-radius: 10px;
+	border-radius: 0.5em;
 }
 
 .n-selected a:hover{
@@ -35,34 +35,27 @@ body{
 	
 }
 
-#container-medlem{
-    position: relative;
-    padding-top: 10%;
-    margin: 0 auto 0 auto;
-}
-
 .content{
 	background-color: gray;
-	max-width: 80%;
-	padding: 2%;
-	margin: 4% auto 0 auto;
-	border-radius: 10px;
+	max-width: 80em;
+	padding: 1em;
+	margin: 2em auto 0 auto;
+	border-radius: 1em;
 }
 
 .medlemmer{
 	background-color: gray;
-	max-width: 18%;
-	padding: 2%;
-	margin: 4% 1% 0 1%;
-	border-radius: 10px;
+	max-width: 22em;
+	padding: 1em;
+	margin: 2em 1em 0 1em;
+	border-radius: 1em;
 	display: inline-block;
 }
 
 .medlemmer img{
-	position: inherit;
-	max-width: 100%;
-	border-radius: 10px;
-	margin: -10px auto 0 auto;
+	max-width: 15em;
+	border-radius: 1em;
+	margin: -0.2em auto 0 auto;
 	border: solid;
 }
 
@@ -72,10 +65,13 @@ body{
 }
 
 #tab {
-	background: url("../images/Nav bar.png");
-	height: 4%;
+	background: url("../images/design/Nav bar.png");
+	height: 2.3em;
 	width: 100%;
 	position: fixed;
     bottom: 0;
+    text-align: left;
+    opacity: 0.4;
 	
 }
+
