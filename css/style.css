@@ -35,24 +35,29 @@ body{
 	
 }
 
-.content{
+.content, .medlemmer, .medlem-content{
 	background-color: gray;
-	max-width: 80em;
 	padding: 1em;
-	margin: 2em auto 0 auto;
+	margin: 2em auto 4em auto;
 	border-radius: 1em;
+}
+
+.content {
+	max-width: 40em;
+}
+
+.content img{
+
 }
 
 .medlemmer{
-	background-color: gray;
 	max-width: 22em;
-	padding: 1em;
-	margin: 2em 1em 0 1em;
-	border-radius: 1em;
+	height: 22em;
+	margin: 2em 1em 4em 1em;
 	display: inline-block;
 }
 
-.medlemmer img{
+.medlemmer img, .medlem-content img{
 	max-width: 15em;
 	border-radius: 1em;
 	margin: -0.2em auto 0 auto;
@@ -60,8 +65,11 @@ body{
 }
 
 .medlemmer a, .medlemmer a:hover, .medlemmer a:visited, .medlemmer a:link{
-	text-decoration: none;
 	color: black;
+}
+
+.medlem-content {
+	max-width: 40em;
 }
 
 #tab {
