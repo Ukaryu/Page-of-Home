@@ -9,7 +9,7 @@ function medlemmer(i) {
   hjemsted = xml.getElementsByTagName("hjemsted");
   diverseInfo = xml.getElementsByTagName("diverseInfo");
 
-  /* Definerer en variabel som holder hele HTML-koden til table-elementet */
+  /* Definerer en variabel som holder hele HTML-koden om medlemmene i gruppa */
   var medlemInfo;
 
   medlemInfo += "<h2>" + navn[i].childNodes[0].nodeValue + "</h2>";
@@ -19,7 +19,7 @@ function medlemmer(i) {
   medlemInfo += alder[i].childNodes[0].nodeValue + " gammel. ";
   medlemInfo += diverseInfo[i].childNodes[0].nodeValue + "</p>";
 
-  /* Gir HTML-elmentet med IDen 'bok-liste' table markup'en */
+  /* Gir HTML-elmentet med IDen 'medlem-content' innholdet i medlemInfo var. */
   document.getElementById("medlem-content").innerHTML = medlemInfo;
 
   /* Funksjon for å laste inn XML filer */
