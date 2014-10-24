@@ -3,14 +3,14 @@ function medlemmer(i) {
   /* Bruker loadXMLDoc funksjon til å laste inn XML filen */
   var xml = loadXMLDoc("medlemmer.xml");
 
-  navn = xml.getElementsByTagName("navn");
-  bilde = xml.getElementsByTagName("bilde");
-  alder = xml.getElementsByTagName("alder");
-  hjemsted = xml.getElementsByTagName("hjemsted");
-  diverseInfo = xml.getElementsByTagName("diverseInfo");
+  var navn = xml.getElementsByTagName("navn");
+  var bilde = xml.getElementsByTagName("bilde");
+  var alder = xml.getElementsByTagName("alder");
+  var hjemsted = xml.getElementsByTagName("hjemsted");
+  var diverseInfo = xml.getElementsByTagName("diverseInfo");
 
   /* Definerer en variabel som holder hele HTML-koden om medlemmene i gruppa */
-  var medlemInfo;
+  var medlemInfo = "";
 
   medlemInfo += "<h2>" + navn[i].childNodes[0].nodeValue + "</h2>";
   medlemInfo += "<img " + bilde[i].childNodes[0].nodeValue + ">";
