@@ -1,5 +1,5 @@
 body{
-	background: url("../images/design/Background.png") no-repeat center center fixed; 
+	background: url("../images/design/Background.png") no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -7,6 +7,7 @@ body{
  	text-align: center;
  	padding: 0;
  	margin: 0;
+	max-width: 1600px;
 }
 
 #head #head-div div{
@@ -32,10 +33,10 @@ body{
 
 .n-selected a:hover{
 	background-color: #BFBFBF;
-	
+
 }
 
-.content, .medlemmer, .medlem-content{
+.content, .medlemmer, #medlem-content{
 	background-color: gray;
 	padding: 1em;
 	margin: 2em auto 4em auto;
@@ -52,12 +53,12 @@ body{
 
 .medlemmer{
 	max-width: 22em;
-	height: 22em;
+	height: 15em;
 	margin: 2em 1em 4em 1em;
 	display: inline-block;
 }
 
-.medlemmer img, .medlem-content img{
+.medlemmer img, #medlem-content img{
 	max-width: 15em;
 	border-radius: 1em;
 	margin: -0.2em auto 0 auto;
@@ -68,7 +69,7 @@ body{
 	color: black;
 }
 
-.medlem-content {
+#medlem-content {
 	max-width: 40em;
 }
 
@@ -80,6 +81,5 @@ body{
     bottom: 0;
     text-align: left;
     opacity: 0.4;
-	
-}
 
+}

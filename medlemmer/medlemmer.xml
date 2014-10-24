@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<medlemmer>
+  <medlem name="jonas">
+    <navn>Jonas Holme</navn>
+    <bilde>src="../images/jonas.jpg"</bilde>
+    <alder>21 år</alder>
+    <hjemsted>Hyen, Gloppen</hjemsted>
+    <diverseInfo>
+      Han har bodd to år på folkehøgskole i Stavanger,
+      samt ett år i Kristiansand, før han satte kursen
+      mot Bergen sammen med kjæresten sin.
+      Selv om han trives aller best på fotballbanen,
+      har hans endelige mål alltid vært å jobbe innen databransjen.
+    </diverseInfo>
+  </medlem>
+
+  <medlem name="martin">
+    <navn>Martin Robertsen</navn>
+    <bilde>src="../images/martin.jpg"</bilde>
+    <alder>18 år</alder>
+    <hjemsted>Selnes, Lyngen</hjemsted>
+    <diverseInfo>
+      Blant mange av målene hans så er dataingeniør ett.
+      Han er glad i lage det aller meste, men er mest fascinert
+      av elektronikk og det som måtte omgås dette feltet.
+    </diverseInfo>
+  </medlem>
+
+  <medlem name="mounir">
+    <navn>Mounir Idrissi Jazouli</navn>
+    <bilde>src="../images/mounir.jpg"</bilde>
+    <alder>...</alder>
+    <hjemsted>...</hjemsted>
+    <diverseInfo>
+      Mounir er student ved HiB og går sitt første år der.
+    </diverseInfo>
+  </medlem>
+
+  <medlem name="nils">
+    <navn>Nils Terje Krumsvik</navn>
+    <bilde>src="../images/nils.JPG"</bilde>
+    <alder>23 år</alder>
+    <hjemsted>Tau, Strand</hjemsted>
+    <diverseInfo>
+      Han går på dataingeniør ved Høgskulen i Bergen på sitt første år.
+      Han har i årene etter videregående hatt ett år på folkehøgskulen i Valdres,
+      på skilinje, ett år i militæret hvor han var patruljefører ved den norsk-russiske
+      grense som visekorperal, han har brukt ni måneder av livet på å reise rundt jorda
+      hvor han var innom Asia, Indonesia, Australia og New Zealand, han var innom noen
+      øyer i Stillehavet, og han hadde en kort stund i Nord-Amerika og kort tid i Sør-Amerika.
+      Hans siste år har gått med til jobbing som maskinoperatør ved hjemstedet sitt.
+    </diverseInfo>
+  </medlem>
+
+</medlemmer>
