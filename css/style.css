@@ -48,8 +48,8 @@ body{
 }
 
 .content img{
-	max-width: 20em;
-	border: solid;
+	max-width: 100%;
+	border: solid 2px black;
 }
 
 .medlemmer{
@@ -76,11 +76,40 @@ body{
 
 #tab {
 	background: url("../images/design/Nav bar.png");
-	height: 2.3em;
+	height: 4em;
 	width: 100%;
 	position: fixed;
-    bottom: 0;
-    text-align: left;
-    opacity: 0.4;
+  bottom: 0;
+  text-align: left;
+  background: rgba(104, 104, 104, 0.4);
+	float:left;
 
+}
+
+#tab a div {
+	background-color: #a2a2a2;
+	border: solid;
+	border-color: grey;
+	border-radius: 0.5em;
+	color: black;
+	padding: 0.1em;
+	margin: -2.9em 2em 0 0;
+	width:auto;
+	opacity: 100%;
+	float: right;
+	box-shadow: 10px 10px 30px #000000;
+}
+#tab a:hover div{
+	background-color: #898989;
+	border-radius: 0.5em;
+	color: black;
+	box-shadow: 0 0 0 #000000
+}
+
+#statRap{
+	margin: -2.9em 10em 0 0;
+}
+
+#proSide{
+	margin: -2.9em 20em 0 0;
 }
